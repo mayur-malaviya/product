@@ -1,0 +1,201 @@
+body{
+    margin: 0;
+    font-family: sans-serif;
+    background: #f2f2f2;
+}
+h3{
+    text-align: center;
+    font-size: 26px;
+    margin: 0;
+    padding-top: 10px;
+    color: #222f3e;
+}
+
+a{
+    text-decoration: none;
+}
+
+.gallery{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin: 50px 0;
+
+}
+
+.content{
+    width: 20%;
+    margin: 15px;
+    box-sizing: border-box;
+    float: left;
+    text-align: center;
+    border-radius: 20px;
+    cursor: pointer;
+    padding-top: 10px;
+    box-shadow: 0 14px 28px rgba(0,0,0,0.25),
+    0 10px 10px rgba(0,0,0,0.22);
+    transition: .4s;
+    background: #f2f2f2;
+}
+
+.content:hover{
+    box-shadow: 0 3px 6px rgba(0,0,0,0.16),
+    0 3px 6px rgba(0,0,0,0.23);
+    transform: translate(0px, -8px);
+}
+
+img{
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    margin: 0 auto;
+    display: block;
+}
+
+p{
+    text-align: center;
+    color: #b2bec3;
+    padding: 0 8px;
+}
+
+h6{
+    font-size: 26px;
+    text-align: center;
+    color: #222f3e;
+    margin: 0;
+}
+
+ul{
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0;
+}
+
+li{
+    padding: 5px;
+}
+
+.fa{
+    font-size: 26px;
+    transition: .4s;
+    
+    
+}
+
+.checkes{
+    color: #ff9f43;
+}
+
+.fa:hover{
+    transform: scale(1.3);
+    transition: .6s;
+}
+
+button{
+    text-align: center;
+    font-size: 24px;
+    color: #fff;
+    width: 100%;
+    padding: 15px;
+    outline: none;
+    cursor: pointer;
+    margin-top: 5px;
+    border-bottom-right-radius: 20px;
+    border-bottom-left-radius: 20px;
+}
+
+.buy-1{
+    background: #f86d17;
+}
+
+.buy-2{
+    background: #f41111;
+}
+
+.buy-3{
+    background: #f0a94b;
+}
+
+.buy-4{
+    background: #0cbede;
+}
+.buy-5{
+    background: #f86d17;
+}
+
+.buy-6{
+    background: #f41111;
+}
+
+.buy-7{
+    background: #f0a94b;
+}
+
+.buy-8{
+    background: #0cbede;
+}
+.buy-9{
+    background: #f86d17;
+}
+
+.buy-10{
+    background: #f41111;
+}
+
+.buy-11{
+    background: #f0a94b;
+}
+
+.buy-12{
+    background: #0cbede;
+}
+.buy-13{
+    background: #f86d17;
+}
+
+.buy-14{
+    background: #f41111;
+}
+
+.buy-15{
+    background: #f0a94b;
+}
+
+.buy-16{
+    background: #0cbede;
+}
+
+.buy-17{
+    background: #f86d17;
+}
+
+.buy-18{
+    background: #f41111;
+}
+
+.buy-19{
+    background: #f0a94b;
+}
+
+.buy-20{
+    background: #0cbede;
+}
+
+
+
+
+@media(max-width:1000px){
+    .content{
+        width: 45%;
+    }
+}
+
+@media(max-width:750px){
+    .content{
+        width: 100%;
+    }
+}
